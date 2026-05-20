@@ -4,6 +4,8 @@ A small GitHub-ready news dashboard that pulls articles from the past 24 hours a
 
 It groups coverage by two outlets each from Israel, Lebanon, Iran, Dubai/UAE, and the USA. The page refreshes when opened, has a manual refresh button, and automatically checks again every 24 hours while it is open.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/eliemokbel3-hub/Middle-East-War-News)
+
 ## Outlets
 
 | Region | Outlets |
@@ -59,12 +61,14 @@ If the phone URL does not load, allow Node.js through Windows Firewall on privat
 
 GitHub Pages cannot run the live Node server in this project. Push this repo to GitHub, then deploy it to a Node-capable host such as Render, Railway, Fly.io, or a VPS.
 
+This repo includes `render.yaml`, so Render can create the web service from the blueprint.
+
 Typical settings:
 
 ```text
-Build command: none
+Build command: npm install
 Start command: npm start
-Node version: 18+
+Node version: 20
 ```
 
 ## Customize Outlets

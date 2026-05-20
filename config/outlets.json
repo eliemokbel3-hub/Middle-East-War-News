@@ -1,0 +1,64 @@
+[
+  {
+    "region": "Israel",
+    "name": "The Times of Israel",
+    "domain": "timesofisrael.com",
+    "homepage": "https://www.timesofisrael.com/"
+  },
+  {
+    "region": "Israel",
+    "name": "The Jerusalem Post",
+    "domain": "jpost.com",
+    "homepage": "https://www.jpost.com/"
+  },
+  {
+    "region": "Lebanon",
+    "name": "Al Jazeera",
+    "domain": "aljazeera.com",
+    "homepage": "https://www.aljazeera.com/"
+  },
+  {
+    "region": "Lebanon",
+    "name": "MTV Lebanon",
+    "domain": "mtv.com.lb",
+    "homepage": "https://www.mtv.com.lb/",
+    "strategy": "mtvLatestTranslated",
+    "maxArticles": 8
+  },
+  {
+    "region": "Iran",
+    "name": "Tehran Times",
+    "domain": "tehrantimes.com",
+    "homepage": "https://www.tehrantimes.com/"
+  },
+  {
+    "region": "Iran",
+    "name": "Press TV",
+    "domain": "presstv.ir",
+    "homepage": "https://www.presstv.ir/"
+  },
+  {
+    "region": "Dubai / UAE",
+    "name": "Gulf News",
+    "domain": "gulfnews.com",
+    "homepage": "https://gulfnews.com/"
+  },
+  {
+    "region": "Dubai / UAE",
+    "name": "Khaleej Times",
+    "domain": "khaleejtimes.com",
+    "homepage": "https://www.khaleejtimes.com/"
+  },
+  {
+    "region": "USA",
+    "name": "AP News",
+    "domain": "apnews.com",
+    "homepage": "https://apnews.com/"
+  },
+  {
+    "region": "USA",
+    "name": "CNN",
+    "domain": "cnn.com",
+    "homepage": "https://www.cnn.com/"
+  }
+]

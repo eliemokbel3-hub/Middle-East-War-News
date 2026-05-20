@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b6b6f">
+    <title>Middle East War News Brief</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Past 24 hours</p>
+        <h1>Middle East War News Brief</h1>
+      </div>
+      <div class="actions">
+        <span id="status" class="status">Loading</span>
+        <button id="refreshButton" type="button" aria-label="Refresh news">Refresh</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary" aria-label="Dashboard summary">
+        <div>
+          <span class="label">Articles</span>
+          <strong id="articleCount">0</strong>
+        </div>
+        <div>
+          <span class="label">Window</span>
+          <strong id="windowLabel">Past 24 hours</strong>
+        </div>
+        <div>
+          <span class="label">Last updated</span>
+          <strong id="lastUpdated">Not yet</strong>
+        </div>
+        <div>
+          <span class="label">Next refresh</span>
+          <strong id="nextRefresh">In 24 hours</strong>
+        </div>
+      </section>
+
+      <section id="regions" class="regions" aria-live="polite"></section>
+    </main>
+
+    <template id="regionTemplate">
+      <section class="region">
+        <div class="region-header">
+          <h2></h2>
+          <span></span>
+        </div>
+        <div class="outlet-grid"></div>
+      </section>
+    </template>
+
+    <template id="outletTemplate">
+      <article class="outlet">
+        <div class="outlet-header">
+          <div>
+            <h3></h3>
+            <a class="homepage" target="_blank" rel="noreferrer"></a>
+          </div>
+          <span class="outlet-count"></span>
+        </div>
+        <ol class="articles"></ol>
+        <p class="empty">No matching articles found in the past 24 hours.</p>
+      </article>
+    </template>
+
+    <template id="articleTemplate">
+      <li>
+        <a target="_blank" rel="noreferrer"></a>
+        <div class="meta">
+          <time></time>
+          <span></span>
+        </div>
+      </li>
+    </template>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>

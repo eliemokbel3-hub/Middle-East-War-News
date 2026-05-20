@@ -1,0 +1,22 @@
+{
+  "name": "middle-east-war-news-brief",
+  "version": "1.0.0",
+  "description": "A GitHub-ready local news dashboard for Middle East war coverage from selected regional and US outlets.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --check server.js && node --check public/app.js"
+  },
+  "keywords": [
+    "news",
+    "middle-east",
+    "dashboard",
+    "gdelt"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
